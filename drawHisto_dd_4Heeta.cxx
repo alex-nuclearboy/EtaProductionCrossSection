@@ -129,10 +129,10 @@ void drawHisto_dd_4Heeta() {
   TLegend *MyLegend01 = new TLegend(0.590, 0.220, 0.890, 0.465);
   MyLegend01->SetFillStyle(1001); MyLegend01->SetFillColor(19); MyLegend01->SetLineColor(1); MyLegend01->SetBorderSize(5);
   MyLegend01->SetTextSize(0.04);
-  MyLegend01->AddEntry(XS_graph[0], "SPES-4 [122]", "pE");
-  MyLegend01->AddEntry(XS_graph[1], "SPES-3 [123]", "pE");
-  MyLegend01->AddEntry(XS_graph[2], "COSY-ANKE [124]", "pE");
-  MyLegend01->AddEntry(XS_graph[3], "GEM [125]", "pE");
+  MyLegend01->AddEntry(XS_graph[0], "SPES-4 [123]", "pE");
+  MyLegend01->AddEntry(XS_graph[1], "SPES-3 [124]", "pE");
+  MyLegend01->AddEntry(XS_graph[2], "COSY-ANKE [125]", "pE");
+  MyLegend01->AddEntry(XS_graph[3], "GEM [126]", "pE");
   MyLegend01->Draw();
 
   MyCanvas01->Print("plots/hCrossSections_dd.png","png");

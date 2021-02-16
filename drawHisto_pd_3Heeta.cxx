@@ -159,7 +159,7 @@ void drawHisto_pd_3Heeta() {
   MyLegend01->AddEntry(XS_graph[1], "SPES-2 [33]", "pE");
   MyLegend01->AddEntry(gXS[0], "COSY-ANKE [34]", "pE");
   MyLegend01->AddEntry(gXS[1], "COSY-11 [35]", "pE");
-  MyLegend01->AddEntry(XS_graph[0], "COSY-11 [126]", "pE");
+  MyLegend01->AddEntry(XS_graph[0], "COSY-11 [127]", "pE");
   MyLegend01->Draw();
 
   MyCanvas01->Print("plots/hCrossSections_pd.png","png");
