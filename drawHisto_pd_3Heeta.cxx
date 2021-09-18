@@ -114,8 +114,8 @@ void drawHisto_pd_3Heeta() {
 
   TCanvas* MyCanvas01 = new TCanvas;
 
-  hist->GetXaxis()->SetTitle("\\hbox{energia dostępna, GeV/c}");
-  hist->GetYaxis()->SetTitle("#sigma, nb");
+  hist->GetXaxis()->SetTitle("\\hbox{energia dostępna [GeV/c]}");
+  hist->GetYaxis()->SetTitle("#sigma [nb]");
   hist->GetXaxis()->SetTitleSize(0.06);
   hist->GetXaxis()->SetTitleOffset(1.1);
   hist->GetXaxis()->SetLabelSize(0.05);
